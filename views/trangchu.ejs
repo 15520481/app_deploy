@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>Phòng chat Offline</title>
+        <script src="socket.io/socket.io.js"></script>
+        <script src="jquery.js"></script>
+        <script src="xuly.js"></script> 
+        <link type="text/css" rel="stylesheet" href="layout.css"></style>
+        
+    </head>
+    <body>
+        <input type="text" id="txtTenRoom"/> 
+        <br> 
+        <br> 
+        <input type="button" id="btnTenRoom" value="Send"/> 
+        <br>
+        <br> 
+        <div id="left">
+            <h2>Room exists</h2>
+            <div id="roomDangCo"> </div> 
+        </div>
+        <h4 id="roomHienTai">
+            <p>Room hiện tại sẽ hiện lên ở đây</p>
+        </h4>
+        <div id="right">
+            
+        </div>
+        <input type="text" id="txtMessage"/> 
+        <input type="button" id="btnSendMes" value="Gửi tin nhắn"/>
+    </body>
+</html>
